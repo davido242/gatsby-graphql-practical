@@ -3,5 +3,8 @@ module.exports = {
     title: `gatsby-graphql-practical`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 }
