@@ -6,7 +6,7 @@ import Header from "../components/header";
 
 const BlogPage = () => {
     return (
-        <Layout>
+        <Layout pageTitle="My Blog Posts">
             <h1>This is My first Blog Component Created in Life!</h1>
             <MyComponent />
             <Header />
