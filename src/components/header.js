@@ -1,12 +1,8 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
-import { container,
-    heading,
-    navLinks,
-    navLinkItem,
-    navLinkText,
+import {
     siteTitle 
-} from './layout.module.css'
+} from './site-title.module.css'
 
 
 const Header = () => {
@@ -24,7 +20,7 @@ const Header = () => {
     `)
     return (
         <header>
-            <h1 className={siteTitle}>{ data.site.siteMetadata.title}</h1>
+            <h1 className={siteTitle}>{"Build Time: " + data.siteBuildMetadata.buildTime}</h1>
         </header>
     )
 }
