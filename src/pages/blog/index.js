@@ -1,8 +1,8 @@
 import React from "react";
-import Layout from "../components/layout";
+import Layout from "../../components/layout";
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { graphql } from "gatsby";
-import { siteTitle } from '../components/site-title.module.css'
+import { siteTitle } from '../../components/site-title.module.css'
 
 
 const BlogPage = ({data}) => {
